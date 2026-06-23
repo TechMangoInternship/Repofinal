@@ -1,0 +1,9 @@
+/* Grid specific cell adjustments */
+.rg-cell-textarea {
+  min-height: 28px;
+  overflow-y: hidden;
+  resize: none;
+}
+.rg-cell-textarea:focus {
+  resize: vertical;
+}
